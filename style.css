@@ -1,0 +1,107 @@
+      * {
+        margin: 0%; 
+        padding: 0%;
+        font-family: sans-serif;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        width: 100%;
+        background: #f6d050;
+        min-height: 100vh;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        margin: 10rem auto;
+        max-width: 500px;
+        padding: 1rem;
+        border-radius: 16pt;
+        box-shadow: 15px 15px 15px black;
+        transition: all 0.5s ease-in-out;
+        background-color: white;
+        border: solid 0.8pt black;
+      }
+      .card:hover {
+        box-shadow: -15px -15px 15px black;
+      }
+      .dis-img {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        /* border: solid 2px red; */
+      }
+      .dis-img svg {
+        transition: all 0.5s linear;
+        border-radius: 12pt;
+        /* border: solid 0.8pt black; */
+      }
+      .dis-img svg:hover {
+        transform: scale(0.25);
+        border: solid 2pt black;
+      }
+
+      strong {
+        display: flex;
+        border-radius: 5px;
+        width: max-content;
+        font-weight: 900;
+        margin: auto 0;
+        font-size: small;
+        padding: 0.5rem;
+        transition: all 0.5s linear;
+        background-color: #f6d050;
+      }
+      strong:hover {
+        color: #f6d050;
+        background-color: black;
+      }
+      figcaption p {
+        margin: 0.8rem 0;
+        font-weight: bolder;
+        font-size: x-small;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        margin: 1rem auto;
+      }
+      .content h1 {
+        font-weight: 900;
+        font-size: clamp(1rem, 2.25vw, 2rem);
+      }
+      .content p {
+        word-wrap: break-word;
+        /* word-break: break-all; */
+        word-spacing: normal;
+        line-height: 1.5rem;
+        font-size: 16px;
+      }
+      footer {
+        display: flex;
+      }
+      .footer-img {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+      }
+      .footer-img figcaption {
+        font-weight: 800;
+        font-size: small;
+
+      }
+      .footer-img figcaption:hover {
+        border-radius: 1rem;
+        border-bottom: solid 2pt black;
+      }
+      .footer-img img{
+        border-radius: 50%;
+        transition: all 0.5s linear;box-shadow: 2px 2px 10px rgba(0,0,0,0.85); 
+      }
+      .footer-img img:hover{
+        transform: scale(1.25);
+       box-shadow: -2px -2px 10px rgba(0,0,0,0.85); 
+      }
